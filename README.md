@@ -114,4 +114,4 @@ Understanding these dynamics is critical for risk management, forecasting, and e
 * analysis.ipynb – volatility modeling, VAR, and VECM analysis
 * data/ – processed financial dataset 
 * README.md – project overview
-* project_report.pdf – detailed academic report 
+* project_report.pdf – detailed academic report (supporting material)

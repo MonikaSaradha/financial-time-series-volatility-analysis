@@ -12,12 +12,15 @@ This project demonstrates an end-to-end econometric pipeline for analyzing volat
 
 ## Dataset
 
-* Financial time series dataset including:
+The dataset consists of daily financial time series data collected using the `yfinance` API. The analysis focuses on three key market indicators:
 
-  * Oil Prices (CL=F)
-  * Exchange Rates (EURUSD=X)
-  * Dow Jones Industrial Average (^DJI)
-* Data sourced using `yfinance` covering 2020–2023
+* **Crude Oil Prices (CL=F)** – representing global energy market dynamics
+* **Exchange Rate (EURUSD=X)** – capturing currency fluctuations between Euro and US Dollar
+* **Dow Jones Industrial Average (^DJI)** – reflecting overall stock market performance
+
+The data spans from **January 2020 to July 2023**, with each observation representing adjusted closing prices.
+
+For reproducibility, the dataset is optionally stored locally as `financial_data.xlsx`.
 
 ---
 
@@ -112,6 +115,5 @@ Understanding these dynamics is critical for risk management, forecasting, and e
 ## Project Structure
 
 * analysis.ipynb – volatility modeling, VAR, and VECM analysis
-* data/ – processed financial dataset 
 * README.md – project overview
 * project_report.pdf – detailed academic report (supporting material)
